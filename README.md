@@ -1,5 +1,5 @@
 # Mozitrailer értékelő
-##Harsányi Ádám G50Z8C
+###Harsányi Ádám G50Z8C
 ## Követelményanalízis
 
 A beadandó célja egy kis webes alkalmazás elkészítése szerveroldali technológiák segítségével. A feladatnak minimálisan tartalmaznia kell:
