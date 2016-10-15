@@ -27,7 +27,7 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 + POST /films/create: új film felvitele, adatok küldése
 
 ###Szerepkörök
-+ Regiszrtációt nem igénylő
++ Regisztrációt nem igénylő
 
    + Látogató (`visitor`)
 
