@@ -22,7 +22,7 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 + POST /login: bejelentkezési adatok felküldése
 + GET /profile: profiladatok
 + GET /films: filmlista
-+ GET /films/:id: film megtekintése
++ GET /films/id: film megtekintése
 + GET /films/create: új film felvitele, űrlap megjelenítése
 + POST /films/create: új film felvitele, adatok küldése
 
