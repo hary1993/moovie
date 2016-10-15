@@ -17,14 +17,14 @@ Az alkalmazásban a felhasználóknak premier filmek trailerének megnézésére
 
 Az oldal az alábbi végpont-szerkezet alapján épül fel:
 
-    GET /: főoldal
-    GET /login: bejelentkező oldal
-    POST /login: bejelentkezési adatok felküldése
-    GET /profile: profiladatok
-    GET /films: filmlista
-    GET /films/:id: film megtekintése
-    GET /films/create: új film felvitele, űrlap megjelenítése
-    POST /films/create: új film felvitele, adatok küldése
+    + GET /: főoldal
+    + GET /login: bejelentkező oldal
+    + POST /login: bejelentkezési adatok felküldése
+    + GET /profile: profiladatok
+    + GET /films: filmlista
+    + GET /films/:id: film megtekintése
+    + GET /films/create: új film felvitele, űrlap megjelenítése
+    + POST /films/create: új film felvitele, adatok küldése
 
 ###Szerepkörök
 + Regiszrtációt nem igénylő
