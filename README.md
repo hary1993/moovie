@@ -39,6 +39,9 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 + GET /films/id: film megtekintése
 + GET /films/create: új film felvitele, űrlap megjelenítése
 + POST /films/create: új film felvitele, adatok küldése
++ GET /films/edit: film szerkesztése, űrlap megjelenítése
++ POST /films/edit: film szerkesztése,  adatok küldése
++ POST /films/delete: film törlése, adatok küldése
 
 ###Szerepkörök
 + Regisztrációt nem igénylő
