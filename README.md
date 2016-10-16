@@ -27,7 +27,7 @@ A beadandó célja egy kis webes alkalmazás elkészítése szerveroldali techno
 + Biztonságos működés: jelszavak tárolása, funkciókhoz való hozzáférés.
    
 ### Használatieset-modell
-Az alkalmazásban a felhasználóknak premier filmek trailerének megnézésére van lehetőségük. Az oldal nem kötött regisztrációhoz, azonban új funkciók érhetőek el ezzel. A filmek kategóriákba sorolhatóak, így meg lehet jeleníteni a csak egy kategóriába tartozó filmeket. Az alkalmazás funkciói közé tartozik továbbá a bejelentkezett felhasználók számára a filmek értékelése és hozzászólás fűzése is.
+Az alkalmazásban a felhasználóknak premier filmek trailerének megnézésére van lehetőségük. Az oldal nem kötött regisztrációhoz, azonban új funkciók érhetőek el ezzel. A filmek kategóriákba sorolhatóak, így kategóriánként szűrni lehet egy filmre. Az alkalmazás funkciói közé tartozik továbbá a bejelentkezett felhasználók számára a filmek értékelése és hozzászólás fűzése is.
 
 ##Tervezés
 ###Végpontok
