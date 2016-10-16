@@ -74,4 +74,8 @@ Egy szerepkörtől független látogató usecase diagramja
 A bejelentkezés folyamatának leírása
 ![alt text](http://kepfeltoltes.hu/161016/Sequence_www.kepfeltoltes.hu_.jpg)
 
+##Adatmodell 
+![alt text](http://kepfeltoltes.hu/161016/1446592701datamodellFilms_www.kepfeltoltes.hu_.jpg)
+
+##Adatbázis terv
 
