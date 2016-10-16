@@ -55,27 +55,27 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 ###Oldalvázlatok
 
 ####Főoldal
-![alt text](http://kepfeltoltes.hu/161016/Home_www.kepfeltoltes.hu_.png)
+![alt text](https://github.com/hary1993/moovie/blob/master/images/Home.PNG)
 
 ####Filmek listája
-![alt text](http://kepfeltoltes.hu/161016/1248966810List_www.kepfeltoltes.hu_.png)
+![alt text](https://github.com/hary1993/moovie/blob/master/images/List.PNG)
 
 ####Bejelentkezett felhasználó (`user`)
-![alt text](http://kepfeltoltes.hu/161016/Bej_www.kepfeltoltes.hu_.png)
+![alt text](https://github.com/hary1993/moovie/blob/master/images/Bej.PNG)
 
 ####Vendég (`guest`)
-![alt text](http://kepfeltoltes.hu/161016/1325607624Nembej_www.kepfeltoltes.hu_.png)
+![alt text](https://github.com/hary1993/moovie/blob/master/images/Nembej.PNG)
 
 ###Usecase diagramm
 Egy szerepkörtől független látogató usecase diagramja 
-![alt text](http://kepfeltoltes.hu/161016/UseCase_Films_www.kepfeltoltes.hu_.jpg)
+![alt text](https://github.com/hary1993/moovie/blob/master/images/UseCase%20Films.jpg)
 
 ###Folyamat diagramm
 A bejelentkezés folyamatának leírása
-![alt text](http://kepfeltoltes.hu/161016/Sequence_www.kepfeltoltes.hu_.jpg)
+![alt text](https://github.com/hary1993/moovie/blob/master/images/Sequence.jpg)
 
 ##Adatmodell 
-![alt text](http://kepfeltoltes.hu/161016/302382380datamodellFilms_www.kepfeltoltes.hu_.jpg)
+![alt text](https://github.com/hary1993/moovie/blob/master/images/datamodellFilms.jpg)
 
 ##Adatbázis terv
 
