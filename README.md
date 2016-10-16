@@ -51,3 +51,19 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 + Regisztrációhoz kötött
    + Admin (`admin`)
    + Bejelentkezett felhasználó(`user`)
+   
+###Oldalvázlatok
+
+####Főoldal
+![alt text](http://kepfeltoltes.hu/161016/Home_www.kepfeltoltes.hu_.png)
+
+####Filmek listája
+![alt text](http://kepfeltoltes.hu/161016/List_www.kepfeltoltes.hu_.png)
+
+####Bejelentkezett felhasználó (`user`)
+![alt text](http://kepfeltoltes.hu/161016/Bej_www.kepfeltoltes.hu_.png)
+
+####Vendég (`guest`)
+![alt text](http://kepfeltoltes.hu/161016/Nembej_www.kepfeltoltes.hu_.png)
+
+
