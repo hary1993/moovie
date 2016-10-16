@@ -66,4 +66,8 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 ####Vendég (`guest`)
 ![alt text](http://kepfeltoltes.hu/161016/Nembej_www.kepfeltoltes.hu_.png)
 
+###Usecase diagramm
+Egy szerepkörtől független látogató usecase diagramja 
+![alt text](http://kepfeltoltes.hu/161016/UseCase_Films_www.kepfeltoltes.hu_.jpg)
+
 
