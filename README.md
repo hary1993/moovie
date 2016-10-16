@@ -47,4 +47,4 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 
 + Regisztrációhoz kötött
    + Admin (`admin`)
-   + Bejelentkezett felhasználó(`logged in`)
+   + Bejelentkezett felhasználó(`user`)
