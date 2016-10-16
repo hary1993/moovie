@@ -51,6 +51,25 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 + Regisztrációhoz kötött
    + Admin (`admin`)
    + Bejelentkezett felhasználó(`user`)
+  
+###Oldaltérkép
+Publikus:
+
+- Főoldal
+- Filmek böngészése
+    + Trailer megtekintése
+- Belépés
+- Regisztráció
+
+Felhasználó
+- Kilépés
+- Kommentelés
+- Értékelés
+    
+Admin
+- Új film felvitele
+- Film módosítása
+- Film törlése
    
 ###Oldalvázlatok
 
