@@ -98,6 +98,3 @@ A bejelentkezés folyamatának leírása
 
 ##Adatmodell 
 ![datamodell](https://github.com/hary1993/moovie/blob/master/images/datamodell.jpg)
-
-##Adatbázis terv
-
