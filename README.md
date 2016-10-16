@@ -15,13 +15,16 @@ A beadandó célja egy kis webes alkalmazás elkészítése szerveroldali techno
   + Kellően megbízható (biztonsági szempontból) és stabil szerveroldal - Backend
   + Az oldal fő funkciójához csak regiszrtált felhasználók férhetnek hozzá.
   + A regisztrált felhasználóknak különbőző szerepköre lehet: `admin` vagy `user`, mely meghatározza, hogy milyen fő funkciókhoz fér hozzá az adott felhasználó.
+  + Adminként új filmet lehet listához adni törölni vagy módosítani annak tartalmát
+  + Bejelentkezett felhasználó tudjon kommentelni és értékelni, míg a nem bejelentkezett csak a trailerek linkjeihez fér hozzá.
   
 ###Nem funkcionális követelmények
 
 + Az általános JavaScript konvencióknak való megfelelés.
 + Adatvédelmi irányelveknek való megfelelés
-   
-
++ Felhasználóbarát, ergonomikus elrendezés és kinézet.
++ Gyors működés.
++ Biztonságos működés: jelszavak tárolása, funkciókhoz való hozzáférés.
    
 ### Használatieset-modell
 Az alkalmazásban a felhasználóknak premier filmek trailerének megnézésére van lehetőségük. Az oldal nem kötött regisztrációhoz, azonban új funkciók érhetőek el ezzel. A filmek kategóriákba sorolhatóak, így meg lehet jeleníteni a csak egy kategóriába tartozó filmeket. Az alkalmazás funkciói közé tartozik továbbá a bejelentkezett felhasználók számára a filmek értékelése és hozzászólás fűzése is.
