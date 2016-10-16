@@ -70,4 +70,8 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 Egy szerepkörtől független látogató usecase diagramja 
 ![alt text](http://kepfeltoltes.hu/161016/UseCase_Films_www.kepfeltoltes.hu_.jpg)
 
+###Folyamat diagramm
+A bejelentkezés folyamatának leírása
+![alt text](http://kepfeltoltes.hu/161016/Sequence_www.kepfeltoltes.hu_.jpg)
+
 
