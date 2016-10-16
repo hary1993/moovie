@@ -58,13 +58,13 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 ![alt text](http://kepfeltoltes.hu/161016/Home_www.kepfeltoltes.hu_.png)
 
 ####Filmek listája
-![alt text](http://kepfeltoltes.hu/161016/List_www.kepfeltoltes.hu_.png)
+![alt text](http://kepfeltoltes.hu/161016/1248966810List_www.kepfeltoltes.hu_.png)
 
 ####Bejelentkezett felhasználó (`user`)
 ![alt text](http://kepfeltoltes.hu/161016/Bej_www.kepfeltoltes.hu_.png)
 
 ####Vendég (`guest`)
-![alt text](http://kepfeltoltes.hu/161016/Nembej_www.kepfeltoltes.hu_.png)
+![alt text](http://kepfeltoltes.hu/161016/1325607624Nembej_www.kepfeltoltes.hu_.png)
 
 ###Usecase diagramm
 Egy szerepkörtől független látogató usecase diagramja 
