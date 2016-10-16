@@ -94,7 +94,7 @@ A bejelentkezés folyamatának leírása
 ![alt text](https://github.com/hary1993/moovie/blob/master/images/Sequence.jpg)
 
 ##Adatmodell 
-![alt text](https://github.com/hary1993/moovie/blob/master/images/datamodellFilms.jpg)
+![alt text](https://github.com/hary1993/moovie/blob/master/images/datamodell.jpg)
 
 ##Adatbázis terv
 
