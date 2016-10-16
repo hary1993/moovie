@@ -74,27 +74,27 @@ Admin
 ###Oldalvázlatok
 
 ####Főoldal
-![alt text](https://github.com/hary1993/moovie/blob/master/images/Home.PNG)
+![home](https://github.com/hary1993/moovie/blob/master/images/Home.PNG)
 
 ####Filmek listája
-![alt text](https://github.com/hary1993/moovie/blob/master/images/List.PNG)
+![film list](https://github.com/hary1993/moovie/blob/master/images/List.PNG)
 
 ####Bejelentkezett felhasználó (`user`)
-![alt text](https://github.com/hary1993/moovie/blob/master/images/Bej.PNG)
+![user](https://github.com/hary1993/moovie/blob/master/images/Bej.PNG)
 
 ####Vendég (`guest`)
-![alt text](https://github.com/hary1993/moovie/blob/master/images/Nembej.PNG)
+![guest](https://github.com/hary1993/moovie/blob/master/images/Nembej.PNG)
 
 ###Usecase diagramm
 Egy szerepkörtől független látogató usecase diagramja 
-![alt text](https://github.com/hary1993/moovie/blob/master/images/UseCase%20Films.jpg)
+![usecase](https://github.com/hary1993/moovie/blob/master/images/UseCase%20Films.jpg)
 
 ###Folyamat diagramm
 A bejelentkezés folyamatának leírása
-![alt text](https://github.com/hary1993/moovie/blob/master/images/Sequence.jpg)
+![sequence](https://github.com/hary1993/moovie/blob/master/images/Sequence.jpg)
 
 ##Adatmodell 
-![alt text](https://github.com/hary1993/moovie/blob/master/images/datamodell.jpg)
+![datamodell](https://github.com/hary1993/moovie/blob/master/images/datamodell.jpg)
 
 ##Adatbázis terv
 
