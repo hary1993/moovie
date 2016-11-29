@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>BestCinema</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/superhero/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav">
+               <li><a href="/">Home</a></li>
+              <li><a href="/main">Trailerek böngészése</a></li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            {% if currentUser %}
+              <li class="navbar-text">Üdv, {{ currentUser.username }}!</li>
+              <li><a href="/logout">Kilépés</a></li>
+            {% else %}
+              <li><a href="/login">Belépés</a></li>
+              <li><a href="/register">Regisztráció</a></li>
+            {% endif %}
+          </ul>
+          </div>
+      </div>
+    </nav>
+    <h1 align="center">Üdvözöljük a BestCinema honlapján!</h1>
+    </br>
+    </br>
+    <div>
+    <p align="center" display: block> Az oldalon megnézheti a legújabb mozifilmek trailereit, valamint bejelentkezett felhasználóként kommentelhet a trailerekhez
+    és értékelheti azokat.
+    <p align="center">BestCinema, hogy tudja melyik film a jó választás.</p>
+    </div>
+    <div align="center">
+     <img src="http://img.lum.dolimg.com/v1/images/rogueone_onesheeta_1000_309ed8f6.jpeg?region=0%2C0%2C1000%2C1481&width=480"  height="450" width="334"> 
+     <img src="http://s3.foxmovies.com/foxmovies/production/films/111/images/posters/482-film-page-large.jpg" align="center"  height="450" width="334"> 
+     <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcSmG4ms8wxdnuKOwetpc4qltTv7pHopDLRTi-t98dx-L-kt_b1t" align="center"  height="450" width="334">
+     <img src="https://moly.hu/system/covers/big/covers_410835.jpg" align="justify"  height="450" width="334">
+    </div>
+    <div class="container">
+        {% block content %}{% endblock %}      
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
