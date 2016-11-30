@@ -37,14 +37,13 @@ Az oldal az alábbi végpont-szerkezet alapján épül fel:
 + GET /: főoldal
 + GET /login: bejelentkező oldal
 + POST /login: bejelentkezési adatok felküldése
-+ GET /profile: profiladatok
-+ GET /films: filmlista
-+ GET /films/id: film megtekintése
-+ GET /films/create: új film felvitele, űrlap megjelenítése
-+ POST /films/create: új film felvitele, adatok küldése
-+ GET /films/edit: film szerkesztése, űrlap megjelenítése
-+ POST /films/edit: film szerkesztése,  adatok küldése
-+ POST /films/delete: film törlése, adatok küldése
++ POST /logout: kijelentkezés
++ POST /register: regisztrálási adatok felküldése
++ GET /logout: kijelentkező oldal
++ GET /layout: filmlista
++ GET /moovies/id: film megtekintése
++ GET /moovies/id/komment: kommentek megjelenítése
++ POST /moovies/id/komment: komment adatok felküldése
 
 ###Szerepkörök
 + Regisztrációt nem igénylő
@@ -70,10 +69,8 @@ Felhasználó
 - Értékelés
     
 Admin
-- Új film felvitele
-- Film módosítása
-- Film törlése
-   
+Az admin sqlite managger-rel tud adatokat felvinni, admini tevékenységeinek eleget tenni.
+
 ###Oldalvázlatok
 
 ####Főoldal
