@@ -69,7 +69,7 @@ Felhasználó
 - Értékelés
     
 Admin
-Az admin sqlite managger-rel tud adatokat felvinni, admini tevékenységeinek eleget tenni.
+- Az admin sqlite managger-rel tud adatokat felvinni, admini tevékenységeinek eleget tenni.
 
 ###Oldalvázlatok
 
