@@ -1,6 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
+     {% block scripts %}
+        <script src="/scripts/login_popup.js"></script>
+    {% endblock %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +21,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+      
   <body>
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
@@ -38,9 +43,9 @@
           <ul class="nav navbar-nav navbar-right">
             {% if currentUser %}
               <li class="navbar-text">Üdv, {{ currentUser.username }}!</li>
-              <li><a href="/logout">Kilépés</a></li>
+              <li><a href="/logout" onclick="return deleteask()">Kilépés</a></li>
             {% else %}
-              <li><a href="/login">Belépés</a></li>
+              <li><a id="btnLogin" href="/login">Belépés</a></li>
               <li><a href="/register">Regisztráció</a></li>
             {% endif %}
           </ul>
@@ -61,6 +66,7 @@
      <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcSmG4ms8wxdnuKOwetpc4qltTv7pHopDLRTi-t98dx-L-kt_b1t" align="center"  height="450" width="334">
      <img src="https://moly.hu/system/covers/big/covers_410835.jpg" align="justify"  height="450" width="334">
     </div>
+
     <div class="container">
         {% block content %}{% endblock %}      
     </div>
@@ -68,6 +74,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
   </body>
 </html>

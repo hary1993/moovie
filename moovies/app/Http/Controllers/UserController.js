@@ -86,6 +86,40 @@ class UserController {
     yield request.auth.logout()
     response.redirect('/')
   }
+
+
+   * ajaxLogin(request, response){
+      const email = request.input('email');
+      const password = request.input('password');
+    
+      try{
+        const login = yield request.auth.attempt(email, password);
+        if(login){
+          response.send({success: true});
+          return;
+        }
+      }
+      catch(err){
+      //todo
+      }
+      response.send({success: false});
+  }
+
+    * ajaxDelete(request, response) {
+    const id = request.param('id');
+    const user = yield User.find(id);
+      if(request.currentUser.id !== 1 ){
+        response.ok({
+           succes:false 
+        })
+        return;
+      }
+      yield user.delete();
+      
+    response.ok({
+      succes: true
+    })
+  }
 }
 
 module.exports = UserController

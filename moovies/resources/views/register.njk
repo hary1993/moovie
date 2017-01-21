@@ -68,41 +68,51 @@
             {% endif %}
 
 
-            <form class="form-horizontal" method="post">
+            <form data-toggle="validator" class="form-horizontal" method="post">
 
               {{ csrfField }}
 
-              <div class="form-group">
-                <label for="username" class="col-lg-2 control-label">Felhasználónév</label>
-                <div class="col-lg-10">
-                  <input type="text" class="form-control" id="username" name="username" placeholder="Felhasználónév" value="{{old('username')}}">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email" class="col-lg-2 control-label">Email</label>
-                <div class="col-lg-10">
-                  <input type="text" class="form-control" id="email" name="email" placeholder="Email" value="{{old('email')}}">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="password" class="col-lg-2 control-label">Jelszó</label>
-                <div class="col-lg-10">
-                  <input type="password" class="form-control" id="password" name="password" placeholder="Jelszó" value="">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="password_confirm" class="col-lg-2 control-label">Jelszó</label>
-                <div class="col-lg-10">
-                  <input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Jelszó" value="">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-lg-10 col-lg-offset-2">
-                  <button type="reset" class="btn btn-default">Mégsem</button>
-                  <button type="submit" class="btn btn-primary">Küldés</button>
-                </div>
-              </div>
-            </form>
+  <div class="form-group has-feedback">
+    <label for="username" class="col-lg-2 control-label">Felhasználónév</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" id="username" name="username" placeholder="Felhasználónév" value="{{old('username')}}" required
+      pattern="^[_A-z0-9]{1,}$">
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+<div class="form-group has-feedback">
+    <label for="email" class="col-lg-2 control-label">Email</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" id="email" name="email" type="email" placeholder="Email" pattern ="\S+@\S+" value="{{old('email')}}"  required>
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+              <div class="form-group has-feedback">
+    <label for="password" class="col-lg-2 control-label">Jelszó</label>
+    <div class="col-lg-10">
+      <input type="password" class="form-control" id="password" name="password" placeholder="Jelszó" value=""  required>
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+               <div class="form-group has-feedback">
+    <label for="password_confirm" class="col-lg-2 control-label">Jelszó</label>
+    <div class="col-lg-10">
+      <input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Jelszó" value=""  
+      data-match="#password" data-match-error="Nem egyezik meg." required >
+       <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-lg-10 col-lg-offset-2">
+      <button type="reset" class="btn btn-default">Mégsem</button>
+      <button type="submit" class="btn btn-primary">Küldés</button>
+    </div>
+  </div>
+</form>
 
             {% endblock %}
     </div>
@@ -110,7 +120,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
   </body>
 </html>
 

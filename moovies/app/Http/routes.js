@@ -31,3 +31,8 @@ Route.get('/login', 'UserController.login')
 Route.post('/register', 'UserController.doRegister')
 Route.post('/login', 'UserController.doLogin')
 Route.get('/logout', 'UserController.doLogout')
+
+
+Route.group('ajax', function () {
+  Route.post('/login', 'UserController.ajaxLogin')
+}).prefix('/ajax')

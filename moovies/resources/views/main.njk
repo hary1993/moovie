@@ -1,3 +1,6 @@
+ {% block scripts %}
+    <script src="/scripts/login_popup.js"></script>
+{% endblock %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,9 +49,9 @@
           <ul class="nav navbar-nav navbar-right">
             {% if currentUser %}
               <li class="navbar-text">Üdv, {{ currentUser.username }}!</li>
-              <li><a href="/logout">Kilépés</a></li>
+               <li><a href="/logout" onclick="return deleteask()">Kilépés</a></li>
             {% else %}
-              <li><a href="/login">Belépés</a></li>
+              <li><a id="btnLogin" href="/login">Belépés</a></li>
               <li><a href="/register">Regisztráció</a></li>
             {% endif %}
           </ul>
