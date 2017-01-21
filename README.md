@@ -95,3 +95,14 @@ A bejelentkezés folyamatának leírása
 
 ##Adatmodell 
 ![datamodell](https://github.com/hary1993/moovie/blob/master/images/datamodell.jpg)
+
+### A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
+register: A register oldalon kliens oldali validáció lett fejlesztve, amennyiben nem megfelelő a mezők kitöltése, abban az esetben nem lehetséges a regisztráció
+
+logout: A kijelentkezéshez egy kliens oldali popup ablak funkció lett fejlesztve az oldalhoz, amely megerősítést vár a felhasználótól, hogy tényleg ki szeretne e jelentkezni, a deleteask() funkció lefutásával.
+
+Funkció szekvencia diagrammja:
+![sequence]()
+
+
+
