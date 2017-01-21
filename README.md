@@ -102,7 +102,7 @@ register: A register oldalon kliens oldali validáció lett fejlesztve, amennyib
 logout: A kijelentkezéshez egy kliens oldali popup ablak funkció lett fejlesztve az oldalhoz, amely megerősítést vár a felhasználótól, hogy tényleg ki szeretne e jelentkezni, a deleteask() funkció lefutásával.
 
 Funkció szekvencia diagrammja:
-![sequence]()
+![bejelentkezes](https://github.com/hary1993/moovie/blob/master/images/bejelentkezes.jpg)
 
 
 
