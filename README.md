@@ -104,5 +104,8 @@ logout: A kijelentkezéshez egy kliens oldali popup ablak funkció lett fejleszt
 ##Funkció szekvencia diagrammja:
 ![bejelentkezes](https://github.com/hary1993/moovie/blob/master/images/bejelentkezes.jpg)
 
+##Selenium IDE
+A selenium ide egy integrált fejlesztői környezet lehetőség van benne Selenium tesztek írására scriptekhez. A Firefox böngészőhöz van implementálva, és lehetőség van teszteket felvenni, szerkeszteni, valamint debugolni azokat.
+
 
 
